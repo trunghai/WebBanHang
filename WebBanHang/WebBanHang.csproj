@@ -198,6 +198,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -5169,6 +5170,11 @@
     <Content Include="assets\pages\img\page_general_search\5.jpg" />
     <Content Include="assets\pages\img\page_general_search\6.jpg" />
     <Content Include="assets\pages\img\page_general_search\7.jpg" />
+    <Content Include="assets\pages\img\product\sp1.jpg" />
+    <Content Include="assets\pages\img\product\sp2.jpg" />
+    <Content Include="assets\pages\img\product\sp3.jpg" />
+    <Content Include="assets\pages\img\product\sp4.jpg" />
+    <Content Include="assets\pages\img\product\sp5.jpg" />
     <Content Include="assets\pages\media\bg\1.jpg" />
     <Content Include="assets\pages\media\bg\2.jpg" />
     <Content Include="assets\pages\media\bg\3.jpg" />
@@ -6246,6 +6252,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Product\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
